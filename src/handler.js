@@ -33,6 +33,7 @@ const addNoteHandler = (request, h) => {
     return response;
   }
 
+  
   return h
     .response({
       status: "fail",
